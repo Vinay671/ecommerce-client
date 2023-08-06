@@ -161,6 +161,7 @@ useEffect(()=>{
                   src={`/api/v1/product/product-photo/${p._id}`}
                   className="card-img-top"
                   alt={p.name}
+                  decoding="async"
                 />
                 <div className="card-body">
                   <div className="card-name-price">
