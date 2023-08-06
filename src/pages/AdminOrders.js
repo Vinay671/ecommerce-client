@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import {axios} from '../utils/axiosClient'
 
 import {AdminMenu} from "../components/layout/AdminMenu";
 import Layout from "../components/layout/Layout";

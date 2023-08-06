@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import Layout from "../components/layout/Layout"
 import { useNavigate } from 'react-router-dom'
-import axios from 'axios'
+import {axios} from '../utils/axiosClient'
 import {Checkbox,Radio} from 'antd'
 import { Prices } from '../components/Prices'
 import { useCart } from '../context/cart'

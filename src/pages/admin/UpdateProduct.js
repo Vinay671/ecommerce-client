@@ -1,4 +1,4 @@
-import axios from 'axios'
+import {axios} from '../../utils/axiosClient'
 import React,{useState,useEffect} from 'react'
 import  toast  from 'react-hot-toast'
 import { AdminMenu } from '../../components/layout/AdminMenu'

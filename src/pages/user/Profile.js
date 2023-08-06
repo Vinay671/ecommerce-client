@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import Layout from '../../components/layout/Layout'
 import { UserMenu } from '../../components/layout/UserMenu'
 import { useAuth } from '../../context/auth'
-import axios from 'axios'
+import {axios} from '../../utils/axiosClient'
 import toast from 'react-hot-toast'
 
 const Profile = () => {

@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import { AdminMenu } from '../../components/layout/AdminMenu'
 import Layout from '../../components/layout/Layout'
-import axios from 'axios'
+import {axios} from '../../utils/axiosClient'
 import  toast from 'react-hot-toast'
 import {Link} from 'react-router-dom'
 

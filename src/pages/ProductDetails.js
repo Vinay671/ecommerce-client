@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import Layout from '../components/layout/Layout'
-import axios from 'axios'
+import {axios} from '../utils/axiosClient'
 import { useNavigate } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import toast from 'react-hot-toast'
