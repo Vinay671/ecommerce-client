@@ -40,7 +40,7 @@ const ProductDetails = () => {
     <Layout>
        <div className="row continer  product-details">
          <div className="col-md-6">
-         <img src={`/api/v1/product/product-photo/${product._id}`} className="card-img-top" height='300' alt={product.name} />
+         <img src={`https://ecommerceserver-fuba.onrender.com/api/v1/product/product-photo/${p._id}`} loadin='lazy' decoding='async' className="card-img-top" height='300' alt={product.name} />
          </div>
          <div className="col-md-6 product-details-info">
             <h1 className="text-center">Product Details</h1>
